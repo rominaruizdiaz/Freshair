@@ -1,3 +1,26 @@
+#facebook-logo {
+    background-color: #4f6aaf;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#google-logo {
+    background-color: white;
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+#git-logo {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.form__image {
+    height: 40px;
+    width: 40px;
+    justify-content: baseline;
+}
 form {
     background-color: #e1f2feb6;
     width: 450px;
@@ -19,11 +42,21 @@ input {
 h1 {
     color: #ADACEB;
     font-size: 3.5em;
-    padding: 40px 0px 20px 0px;
+    padding: 40px 0px 0px 0px;
     display: flex;
     justify-content: center;
 }
 label {
     margin: 0px auto 0px 50px;
     font-size: 1em;
+}
+button {
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px auto 10px auto;
+    border-color: transparent;
+    display: block;
+}
+button:hover {
+    border-color: rgb(168, 184, 255);
 }
