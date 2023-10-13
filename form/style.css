@@ -1,0 +1,29 @@
+form {
+    background-color: #e1f2feb6;
+    width: 450px;
+    height: 600px;
+    border-radius: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+}
+input {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 10px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 20px;
+}
+h1 {
+    color: #ADACEB;
+    font-size: 3.5em;
+    padding: 40px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+label {
+    margin: 0px auto 0px 50px;
+    font-size: 1em;
+}
