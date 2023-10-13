@@ -16,13 +16,25 @@
     display: flex;
     align-items: center;
 }
+#iniciar-sesion {
+    border: none;
+    border-radius: 40px;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+    width: 350px;
+    background-color: #adaceb7f;
+}
+#iniciar-sesion:hover {
+    background-color: #ADACEB;
+}
 .form__image {
     height: 40px;
     width: 40px;
     justify-content: baseline;
 }
 form {
-    background-color: #e1f2feb6;
+    background-color: #e1f2fe9b;
     width: 450px;
     height: 600px;
     border-radius: 30px;
