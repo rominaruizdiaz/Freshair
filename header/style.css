@@ -1,65 +1,64 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 70%;
+    width: 95%;
+    background-color: white;
+    border-radius: 40px 40px 0px 0px;
 }
 header {
-    background-color: #CBE6FF;
-    height: 200px;
     display: flex;
-    align-items: flex-end;
+    background-color: #CBE6FF;
+    height: 20vh;
+    width: auto;
+    justify-content: center;
+    align-items: end;
 }
-#header__background {
-    background-color: rgb(255, 255, 255);
-    width: 95%;
-    height: 75%;
-    border-radius: 40px 40px 0px 0px;
-    margin: 0 auto 0 auto;
-    position: relative;
+#logo__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#figure__semi-circle {
-    margin: 0 auto 0 70%;
-    width: 150px; 
-    height: 150px;
+#logo {
+    width: 70%;
+    height: auto;
+}
+#home__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+#semi-circle {
+    width: 132px; 
+    height: 132px;
     background-color: #8CBACD;
     border-radius: 0 0 0 100%;
-    position: absolute;
 }
-#figure__rectangle {
-    margin: 0 auto 0 78.45%;
+#rectangle {
     width: 100px; 
     height: 20px;
     background-color: #CBEED6;
+    position: absolute;
 }
-#button__inicio {
-    margin: 0 0 0 30%;
+#login__section {
+    display: flex;
 }
-#button__iniciar-sesion {
-    margin: 0 0 0 55%;
-}
-button {
-    border: none;
-    background-color: transparent;
-    font-size: 1em;
-    height:95%;
-}
-a {
-    color: black;
-    text-decoration: none;
-}
-header > div > div > div {
+#login__button {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: auto;
 }
-header > div > div > div > img {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-}
-#header__conteiner {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+#figure {
+    width: 30%;
+    height: auto;
 }
