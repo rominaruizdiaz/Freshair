@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/welcome/style.css">
+    <title>FreshAir</title>
+    <link rel="stylesheet" href="/welcome-page/style.css">
 </head>
 <body>
+    <header>
+        <div id="header">
+            <div id="logo__section">
+                <img alt="" src="/header/assets/logo-FreshAir.png" id="logo">
+                <img alt="" src="/header/assets/slogan.PNG" id="slogan">
+            </div>
+            <div id="home__section">
+                <a href="">Inicio</a>
+                <div id="semi-circle"></div>
+            </div>
+            <div id="login__section">
+                <div id="figure">
+                    <div id="rectangle"></div> 
+                </div>
+                <div id="login__button">
+                    <a href="">iniciar sesión</a>
+                    <img src="/header/assets/profile.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
         <form>
             <h1>INICIAR SESIÓN:</h1>
@@ -15,15 +36,15 @@
             <label for="contraseña">Contraseña:</label>
             <input type="text"></input>
             <button id="facebook-logo">
-                <img src="/form/asserts/facebook-logo.png">
+                <img src="/form/assets/facebook-logo.png">
                 Iniciar sesión con Facebook
             </button>
             <button id="google-logo">
-                <img src="/form/asserts/google-logo.png">
+                <img src="/form/assets/google-logo.png">
                 Iniciar sesión con Google
             </button>
             <button id="git-logo">
-                <img src="/form/asserts/git-logo.jpg">
+                <img src="/form/assets/git-logo.jpg">
                 Iniciar sesión con Git-Hub
             </button>
             <button id="iniciar-sesion">
@@ -31,5 +52,32 @@
             </button>
         </form>
     </main>
+    <footer>
+        <ul>Síguenos:
+            <li>
+                <a href="https://www.facebook.com/">
+                    <img src="/footer/assets/facebook.svg" alt="facebook icon">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/">
+                    <img src="/footer/assets/instagram.svg" alt="instagram icon">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/">
+                    <img src="/footer/assets/twitter.svg" alt="twitter icon">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/">
+                    <img src="/footer/assets/youtube.svg" alt="youtube icon">
+                </a>
+            </li>
+        </ul>
+        <p id="copyright">
+            Copyright © 2012 - 2023 FreshAir®. All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>
