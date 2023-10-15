@@ -25,8 +25,23 @@ header {
     justify-content: center;
 }
 #logo {
-    width: 70%;
+    width: 200px;
     height: auto;
+    background-color: white;
+    transition: 0.4s;
+}
+#logo:hover {
+    opacity: 0;
+}
+#slogan:hover {
+    opacity: 1;
+}
+#slogan {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
 }
 #home__section {
     display: flex;
