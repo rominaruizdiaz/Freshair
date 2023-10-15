@@ -2,39 +2,53 @@
     background-color: #4f6aaf;
     color: white;
 }
+#facebook-logo:hover {
+    filter: brightness(0.9);
+}
 #google-logo {
     background-color: white;
     color: grey;
+}
+#google-logo:hover {
+    filter: brightness(0.9);
 }
 #git-logo {
     background-color: black;
     color: white;
 }
+#git-logo:hover {
+    filter: brightness(0.8);
+}
 #iniciar-sesion {
     font-size: 2em;
     color: white;
-    padding: 20px;
+    padding: 10px;
     width: 350px;
     background-color: #8cbacd84;
     display: inline;
 }
+#iniciar-sesion:hover {
+    background-color: #8cbacd;
+}
 form {
     background-color: #cbe6ffa0;
-    width: 350px;
-    height: 600px;
+    width: 450px;
+    height: 590px;
     border-radius: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
-    padding: 30px 60px 0px 60px;
+    padding: 0 20px 0px 20px;
     text-align: center;
+    float: right;
+    margin: 30px 10% 0 0;
 }
 form > h1 {
     margin: 30px 0px 30px 0px;
     color: #8CBACD;
-    font-size: 3em;
+    font-size: 2em;
 }
 label {
     display: flex;
-    margin: 0 0 5px 10px;
+    margin: 0 0 5px 15%;
 }
 input {
     background-color: rgb(255, 255, 255);
@@ -43,14 +57,15 @@ input {
     border-radius: 10px;
     border: none;
     padding: 0px 20px 0px 20px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
 }
-form > button > img {
-    width: 40px;
+button > img {
+    width: 55px;
+    margin-right: 40px;
 }
 form > button {
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
     height: auto;
     margin: 10px auto 10px auto;
     border-color: transparent;

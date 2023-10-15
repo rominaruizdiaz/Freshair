@@ -1,3 +1,7 @@
 @import url(/header/style.css);
 @import url(/form/style.css);
 @import url(/footer/style.css);
+main {
+    width: auto;
+    height: 70vh;
+}
